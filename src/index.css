@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --nav-bg-img:url('./assets/desktop/bg-pattern-header.svg');
+    --search-icon:url('./assets/desktop/icon-search.svg')
+}
+nav{
+background-image: var(--nav-bg-img);
+
+}
+
