@@ -43,8 +43,8 @@ function Home() {
 
   if (data.length === 0) {
     return (
-      <div className='loading'>
-        <h1 className='mt-[500px] ml-96'>Loading...</h1>
+      <div className='loading w-10 absolute top-64 left-[650px]'>
+        <h1>Loading...</h1>
       </div>
     );
   }
